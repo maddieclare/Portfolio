@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- UIKit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:500|Roboto:500|Roboto:300|Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>About</title>
+  </head>
+  <body>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.js"
+      integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- UIKit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js"></script>
+
+    <!-- HTML body -->
+    <section class="uk-section header-section">
+      <div
+        uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top:200"
+      >
+        <header class="uk-header uk-flex uk-flex-center">
+          <nav class="uk-navbar-container uk-width-5-6" uk-navbar>
+            <div class="uk-navbar-left">
+              <a class="uk-navbar-item uk-logo" href="#">Maddie Gribble</a>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                  <a href="#" id="about-link">About</a>
+                </li>
+                <li>
+                  <a class="inactive-navbar-link" href="#" id="portfolio-link"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a class="inactive-navbar-link" href="#" id="contact-link"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </section>
+
+    <section class="uk-section uk-flex uk-flex-center" id="about-me-section">
+      <div class="uk-width-5-6">
+        <h2 class="page-title">About me.</h2>
+        <h2 class="about-me-intro">
+          I'm a Perth-based web developer-in-training with a foundational
+          knowledge of HTML, CSS and Javascript.
+        </h2>
+        <p class="about-me-body">
+          I currently work in HR for local government and graduated from UWA
+          earlier this year with a BA in linguistics. I am very happy to have
+          discovered coding, as it allows me to put my love of language-learning
+          to more practical use, as well as flex my creative and problem-solving
+          muscles. I hope to eventually become a full-stack web developer and
+          earn my first million by 25.
+        </p>
+
+        <p class="about-me-body">
+          When I'm not working or studying, I enjoy baking, gardening,
+          swing-dancing, video games and dog-watching. You can find me on
+          LinkedIn
+          <a
+            href="https://www.linkedin.com/in/madeleine-gribble-466417192/"
+            target="_blank"
+            class="index-links"
+            >here</a
+          >
+          or visit
+          <a
+            href="https://github.com/maddieclare"
+            target="_blank"
+            class="index-links"
+            >my GitHub profile</a
+          >
+          for more examples of my work.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="uk-section uk-flex uk-flex-center"
+      id="portfolio-section"
+      uk-grid
+    >
+      <div class="uk-width-5-6">
+        <div
+          class="uk-child-width-1-2@s uk-child-width-1-3@m"
+          uk-grid="masonry: true"
+        >
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-1.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p class="uk-text-middle">
+                    <a
+                      href="https://maddieclare.github.io/Word-Guess-Game"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Hangman</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/Word-Guess-Game"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-2.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://maddieclare.github.io/unit-4-game"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Crystal collector</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/unit-4-game"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-3.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://maddieclare.github.io/TriviaGame"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Trivia game</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/TriviaGame"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-4.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://maddieclare.github.io/Giphy-API"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Giphy search</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/Giphy-API"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-5.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://maddieclare.github.io/RPS-Multiplayer"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Rock, paper, scissors</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/RPS-Multiplayer"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-6.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://jpr243.github.io/Happy-Hour"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Happy Hour</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-7.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/liri-node-app"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      LIRI Node App</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-8.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/bamazon"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      Bamazon App</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+              <div
+                class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle"
+              >
+                <img
+                  src="assets/images/placeholder-1.png"
+                  alt="Placeholder image"
+                />
+                <div
+                  class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default uk-text-center"
+                >
+                  <p>
+                    <a
+                      href="https://friendfinder-app-assignment.herokuapp.com/home"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      FriendFinder</a
+                    >
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/maddieclare/FriendFinder"
+                      target="_blank"
+                      class="uk-h4 uk-margin-remove portfolio-links"
+                    >
+                      <i>(get repo here)</i></a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <form
+      class="uk-flex uk-flex-center"
+      id="contact-section"
+      action="https://formspree.io/xrggjynj"
+      method="POST"
+    >
+      <div class="uk-width-5-6">
+        <fieldset class="uk-fieldset">
+          <legend class="uk-legend">
+            <h2 class="page-title">Contact.</h2>
+          </legend>
+
+          <div class="uk-margin">
+            <input
+              name="name"
+              class="uk-input uk-width-1-2"
+              type="text"
+              placeholder="Your name"
+            />
+          </div>
+
+          <div class="uk-margin">
+            <input
+              name="_replyto"
+              class="uk-input uk-width-1-2"
+              type="text"
+              placeholder="youremail@example.com"
+            />
+          </div>
+
+          <div class="uk-margin">
+            <textarea
+              name="message"
+              class="uk-textarea uk-width-1-2"
+              rows="8"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+
+          <button class="uk-button uk-button default">Submit</button>
+        </fieldset>
+      </div>
+    </form>
+
+    <script>
+      $(document).ready(function() {
+        $("#about-link").click(function() {
+          event.preventDefault();
+          $(window).scrollTop($("#about-me-section").offset().top);
+          $("#about-link");
+        });
+
+        $("#portfolio-link").click(function() {
+          event.preventDefault();
+          $(window).scrollTop($("#portfolio-section").offset().top);
+        });
+
+        $("#contact-link").click(function() {
+          event.preventDefault();
+          $(window).scrollTop($("#contact-section").offset().top);
+        });
+      });
+    </script>
+  </body>
+</html>
