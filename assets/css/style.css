@@ -1,76 +1,90 @@
+/* MAIN */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   background-color: #f7f7f7;
 }
 
-.header-section {
-  background-color: #f7f7f7;
+a,
+a:hover {
+  color: #9933ff;
 }
 
 .uk-logo {
-  padding: 0;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  color: #333 !important;
+  color: #333;
 }
 
-.inactive-navbar-link {
-  color: #666 !important;
-}
-
-.uk-navbar-nav > li.uk-active > a {
-  color: #999 !important;
+.uk-navbar {
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0% 5% 0% 5%;
 }
 
 .page-title {
   font-family: "Roboto", sans-serif;
+  font-size: 34px;
   font-weight: 500;
+}
+
+.page-section {
+  width: 55vw;
+  padding: 8% 10% 30% 12%;
+}
+
+.about-me-intro {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
 
-.about-me-intro {
-  width: 60vw;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin: 0;
-  padding:0;
-}
-
 .about-me-body {
-  width: 60vw;
   font-family: "Roboto", sans-serif;
 }
 
-.index-links {
-  color: #BF0A31;
-  text-decoration: none;
+#portfolio {
+  width: 78vw;
 }
 
-.index-links:hover {
-  color: #999;
-  text-decoration: none;
+#contact {
+  padding: 8% 10% 30% 12%;
 }
 
-#portfolio-section {
-  margin-top: 300px;
-  padding-bottom: 300px;
+.input-field {
+  width: 50vw;
+  margin: 2% 0% 0% 0%;
 }
 
-.portfolio-links:hover {
-  color: #BF0A31;
-  text-decoration: none;
-  
+.submit-button {
+  margin: 2% 0% 0% 0%;
 }
 
-.uk-card {
-  box-shadow: none;
+/* MEDIA QUERIES */
+@media screen and (max-width: 590px) {
+  .uk-logo {
+    width: 100vw;
+  }
+
+  .navbar {
+    width: 100vw;
+    justify-content: center;
+  }
 }
 
-#contact-section {
-  padding-bottom: 250px;
+@media screen and (max-width: 700px) {
+  .page-section {
+    width: 75vw;
+  }
 }
 
-.uk-button:hover {
-  color: #BF0A31;
+@media screen and (max-width: 980px) {
+  .input-field {
+    width: 75vw;
+  }
 }
